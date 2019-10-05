@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>	
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Ninjas ninjatjenester</title> 	
+<html lang="nb">
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<title>Ninjas ninjatjenester</title>
+	<meta charset="UTF-8">
 </head>
 <body>
 
 	<header>
 		<div class="banner">
-	<div>
-			<img src="img/logo.jpg" alt="Ninjas ninjatjenester velkomstbanner">
+	<div class="logoText">
+			<img src="../img/logo.jpg" alt="Ninjas ninjatjenester velkomstbanner">
 			<h1><span> Ninjas ninjatjenester AS</span></h1>
 		</div>
 		<nav class="navigasjon">
 			<ul>
-				<li><a href="./hjem.html"> Hjem</a></li>
+				<li><a href="../index.html"> Hjem</a></li>
 				<li><a href="./omMeg.html"> Om meg</a></li>
 				<li><a href="./mineTjenester.html">Mine tjenester</a></li>
 				<li><a href="./kontakt.html">Kontakt</a></li>
@@ -22,7 +23,7 @@
 			</ul>
 		</nav>
 		</div>
-			<div class="headerOffset" />
+	<div class="headerOffset"></div>
 	</header>
 	<article>
 		<div class="contentLayout">
@@ -31,46 +32,45 @@
 			<p class="Innhold">
 				Fyll inn skjemaet nedenfor, så tar jeg kontakt så snart jeg har anledning.
 			</p>
-			<img src="img/dead.png" = alt="comicCatYouDead">
+			<img src="../img/dead.png" alt="comicCatYouDead">
 			<p>
 				Ninjas ninjatjenester sikrer full diskresjon.<br> Vår nettleverandør sender all informasjon gjennom krypterte nettverk, og all trafikk er skjult via ulike VPN- løsninger. Ninjas ninjatjenester er en partner du kan stole på!
 			</p>
 			<section class="kontaktskjema">
-				<datalist id="Mine tjenester"></datalist>
-				<label for="mineTjenester">Velg ønsket tjeneste:<br> </label>
-					<select id="mineTjenester">
+				<datalist></datalist>
+				<h3>Velg ønsket tjeneste:</h3>
+					<select>
 						<option>Tyveri</option>
 						<option> Snikmord </option>
 						<option>Spionasje</option>
 						<option>Overraskelsesangrep</option>
 						<option>Sabotasje</option>
 						<option> Andre forespørsler</option>
-						<select id="mineTjenester" multiple=""></select>	
 					</select>
 					<form action="/form-processing-script" method="post">
-						<label for="Navn"> Ønsket alias:</label><br>
-						<input type="text" name="Navn"><br>
-						<label for="Din melding">Melding:</label><br>
-							<textarea name="Din melding" placeholder="Skriv din melding her" rows="10" cols="60"></textarea>
+						<label> Ønsket alias:</label><br>
+						<input type="text"><br>
+						<label>Melding:</label><br>
+							<textarea placeholder="Skriv din melding her" rows="10" cols="60"></textarea>
 							<br>
-						<input type="submit" name="submit" value="Send melding"> 
+						<input type="submit" name="submit" value="Send melding">
 					</form>
-			</section> 	
-		</div>	
-	</article>	
+			</section>
+		</div>
+	</article>
 
 	<footer>
 	<div class="flex-container">
-		<div><span class="kontakt">Kontaktinformasjon:</span><br> 
+		<div><span class="kontakt">Kontaktinformasjon:</span><br>
 			Ninjas ninjatjenester AS,<br> 27 King George St, Greenwich,<br> London SE10 8QJ, Storbritannia
 		</div>
 		<div>
 			Tlf. 815 493 00 <br> e-post: karoline.devold@gmail.com
 		</div>
-		<div> 
+		<div>
 			<span>©</span> Ninja the ninja cat 10. sept. 2019
 		</div>
-	</div>	
+	</div>
 	</footer>
 
 </body>
