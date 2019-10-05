@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+body, ul, li, h1,h2, a{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+h1, h2 {
+	margin-bottom: 20px;
+}
+
+.contentLayout{
+	margin: 0 160px;
+}
+
+.headerOffset {
+	padding-bottom: 200px;
+} 
+
+html{
+	font-size: 15px;
+	background-color: rgb(224, 224, 235);
+	color: rgb(48,48,48);
+	
+}
+
+.banner {
+	display: flex;
+    justify-content: center;
+	background-color: rgb(255,215,77);
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	height: 155px;
+}
+.banner img{
+	max-width: 98% ;
+	max-height:98% ;
+	z-index: 1;
+	position: relative;
+	border-radius: 80px;
+	left: 60px;
+	border: 2px solid orange;
+	float: left;
+}
+.banner h1{
+	font-size: 40px;
+	position: absolute;
+	left: 20%;
+	text-shadow: 2px 1px rgb(255,103,0);
+	padding: 10px;
+	margin-top: 40px;
+}
+.navigasjon li{
+
+	display: inline;
+}
+.navigasjon li a {
+ position: relative;
+  border: 1px orange;
+  background-color: rgb(250,103,0);
+  color: white;
+  padding: 7px;
+  top:100px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline;
+  font-size: 15px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  height: 13px;
+}
+
+.navigasjon li a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h2 {
+font-size: 30px;
+text-align: center;
+}
+
+.innhold {
+	text-align: justify;
+}
+
+article {
+	margin-bottom: 80px;
+}
+
+article img{
+width: 25%; 
+margin: 30px auto;
+display: block;
+ max-height: 30%;
+ max-width: 30%;
+ border: 2px solid black;
+ border-radius: 25px;
+}
+
+
+
+footer{
+background-color: rgb(255,215,77);
+margin-top: 40px;
+padding: 20px 0;
+}
+
+.flex-ferdigheter{
+display: flex;
+	justify-content: space-around;
+	align-items: flex-start; 
+
+}
+
+.flex-ferdigheter div {
+	margin: 0 40px;
+}
+.flex-ferdigheter span {
+	font-weight: bold;
+}
+
+
+.flex-container {
+  	display: flex;
+	margin: 0 80px;
+	justify-content: space-around;
+	align-items: center; 
+}
+
+.flex-container span{
+
+	font-size: 20px;
+}
+
+
+.kontakt{
+	font-weight: bold;
+}
+
+.overskrift{
+font-weight: bold;
+
+}
+
+select,form, textarea, label, input{
+	border-radius: 12px;
+}
+
+.flexbox-tjenester {
+display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+ align-content: stretch;
+}
+
+.flexbox-tjenester div {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+
+  
+}
+
+.flexbox-tjenester span{
+font-weight: bold;
+}
+
+table{
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+border-collapse: collapse;
+border: solid black;
+padding: 20px;
+width: 50%;
+}
+
+th, td{
+	border-bottom: 1px solid black;
+}
+
+.flexbox-tjenester iframe{
+	width:300px; 
+	height: 250px;
+}
+
+#forbehold{
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+margin-top: 24px;
+}
+
+#forbehold li{
+
+	list-style: none;
+	line-height: 25px;
+	text-align: center;
+}
+
+
+#forbehold ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
