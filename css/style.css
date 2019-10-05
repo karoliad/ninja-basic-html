@@ -18,41 +18,42 @@ h1, h2 {
 
 .headerOffset {
 	padding-bottom: 200px;
-} 
+}
 
 html{
 	font-size: 15px;
 	background-color: rgb(224, 224, 235);
 	color: rgb(48,48,48);
-	
+
 }
 
 .banner {
 	display: flex;
-    justify-content: center;
+  justify-content: space-between;
 	background-color: rgb(255,215,77);
 	position: fixed;
 	width: 100%;
 	z-index: 1;
 	height: 155px;
+  padding: 0 45px;
 }
 .banner img{
-	max-width: 98% ;
-	max-height:98% ;
+	height:98% ;
 	z-index: 1;
-	position: relative;
 	border-radius: 80px;
-	left: 60px;
 	border: 2px solid orange;
-	float: left;
 }
 .banner h1{
 	font-size: 40px;
-	position: absolute;
-	left: 20%;
 	text-shadow: 2px 1px rgb(255,103,0);
 	padding: 10px;
 	margin-top: 40px;
+}
+
+.logoText {
+  display: flex;
+  justify-content: center;
+  width: 40%;
 }
 .navigasjon li{
 
@@ -94,7 +95,7 @@ article {
 }
 
 article img{
-width: 25%; 
+width: 25%;
 margin: 30px auto;
 display: block;
  max-height: 30%;
@@ -114,7 +115,7 @@ padding: 20px 0;
 .flex-ferdigheter{
 display: flex;
 	justify-content: space-around;
-	align-items: flex-start; 
+	align-items: flex-start;
 
 }
 
@@ -130,7 +131,7 @@ display: flex;
   	display: flex;
 	margin: 0 80px;
 	justify-content: space-around;
-	align-items: center; 
+	align-items: center;
 }
 
 .flex-container span{
@@ -164,7 +165,7 @@ display: flex;
   margin: 10px;
   text-align: center;
 
-  
+
 }
 
 .flexbox-tjenester span{
@@ -186,7 +187,7 @@ th, td{
 }
 
 .flexbox-tjenester iframe{
-	width:300px; 
+	width:300px;
 	height: 250px;
 }
 
