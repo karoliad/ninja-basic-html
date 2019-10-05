@@ -42,6 +42,7 @@ html{
 	z-index: 1;
 	border-radius: 80px;
 	border: 2px solid orange;
+  width: 150px;
 }
 .banner h1{
 	font-size: 40px;
@@ -53,8 +54,9 @@ html{
 .logoText {
   display: flex;
   justify-content: center;
-  width: 40%;
+  width: 55%;
 }
+
 .navigasjon li{
 
 	display: inline;
